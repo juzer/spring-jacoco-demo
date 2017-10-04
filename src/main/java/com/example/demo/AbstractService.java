@@ -12,20 +12,14 @@ public abstract class AbstractService
     public int getResult(boolean param)
     {
         return getResultAsInteger(param);
-
     }
 
     private int getResultAsInteger(final boolean param)
     {
-        if (isTrue(param, true))
+        if (param)
             return Integer.MAX_VALUE;
         else
             return Integer.MIN_VALUE;
-    }
-
-    private boolean isTrue(boolean param, boolean whatever)
-    {
-        return param && whatever;
     }
 
 }

@@ -1,8 +1,6 @@
 package com.example.demo;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.Matchers.anyObject;
-import static org.mockito.Mockito.when;
 
 import org.junit.Before;
 import org.junit.Test;
